@@ -1,6 +1,6 @@
 .heading {
-    color: darkblue;
-    background-color: #ccc;
+    color: white;
+    background-color: black;
     border: solid black 2px;
     text-align: center;
 }
@@ -28,32 +28,12 @@ a {
     text-decoration: none;
 }
 
-.menu li:hover:before {
-    content: "<<";
-    color: red;
+.menu li:hover  {
+    background-color: black;
 }
 
-.menu li:hover:after {
-    content: ">>";
-    color: red;
-}
-
-.menu li:active:before {
-    content: "<<";
-    color: green;
-}
-
-.menu li:active:after {
-    content: ">>";
-    color: green;
-}
-
-.menu a:hover {
-    color: red;
-}
-
-.menu a:active {
-    color: green;
+.menu li:hover .a1  {
+    color: white;
 }
 
 .menu li {
@@ -74,13 +54,27 @@ a {
     border-bottom-right-radius: 10px;
 }
 
-.list li:nth-child(1):after {
-    content: " Новинка!";
-    color: blueviolet;
-    text-transform: uppercase;
-}
-
 h1,
 h3 {
     text-align: center;
 }
+
+.table {
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+.table tr {
+    border: 1px solid #000;
+}
+
+.table td {
+    border: 1px solid #000;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
