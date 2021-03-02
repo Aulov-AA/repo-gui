@@ -22,15 +22,33 @@ img {
 .menu {
     font-size: 24px;
     margin: auto;
+    width: 70%;
+    table-layout: fixed;
 }
 
-.menu a {
+table {
+    font-size: 24px;
+    margin: auto;
+    width: 70%;
+    table-layout: fixed;
+}
+
+td {
+    width: 200px;
+    height: 30px;
+    list-style-type: none;
+    border: 1px solid #000;
     text-align: center;
-    margin: 20px;
+    position: relative;
 }
 
-a {
+td a {
+    width: 100%;
     text-decoration: none;
+/*    background-color: blue;*/
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
 }
 
 .menu td:hover {
@@ -49,9 +67,6 @@ a {
     text-align: center;
 
 }
-
-
-
 
 .menu td:first-child {
     border-top-left-radius: 10px;
