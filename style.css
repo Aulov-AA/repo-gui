@@ -40,6 +40,7 @@ td a {
     position: absolute;
     left: 0; right: 0;
     top: 0; bottom: 0;
+    
 }
 
 .menu td:hover {
@@ -50,13 +51,18 @@ td a {
     color: white;
 }
 
+
+
+.menu td:active .a1 {
+    color: red;
+}
+
 .menu td {
     width: 110px;
     height: 30px;
     list-style-type: none;
     border: 1px solid #000;
     text-align: center;
-
 }
 
 .menu td:first-child {
