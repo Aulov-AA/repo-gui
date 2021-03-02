@@ -83,3 +83,6 @@ h3 {
 body {
     margin: 40px;
 }
+a:visited {
+    color: black;
+}
