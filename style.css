@@ -19,12 +19,6 @@ img {
     border: 2px solid black;
 }
 
-.menu {
-    font-size: 24px;
-    margin: auto;
-    width: 70%;
-    table-layout: fixed;
-}
 
 table {
     font-size: 24px;
@@ -34,8 +28,6 @@ table {
 }
 
 td {
-    width: 200px;
-    height: 30px;
     list-style-type: none;
     border: 1px solid #000;
     text-align: center;
@@ -45,7 +37,6 @@ td {
 td a {
     width: 100%;
     text-decoration: none;
-/*    background-color: blue;*/
     position: absolute;
     left: 0; right: 0;
     top: 0; bottom: 0;
@@ -60,7 +51,7 @@ td a {
 }
 
 .menu td {
-    width: 200px;
+    width: 110px;
     height: 30px;
     list-style-type: none;
     border: 1px solid #000;
