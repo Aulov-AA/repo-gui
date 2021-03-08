@@ -92,10 +92,6 @@ h3 {
     text-align: center;
 }
 
-body {
-    margin: 50px 90px 50px 90px;
-}
-
 a:visited {
     color: black;
 }
@@ -124,4 +120,30 @@ div.pole {
 
 label {
     float: left;
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+    border: solid 1px #000;
+    padding: 10px 10px;
+}
+
+.header {
+    height: 50px;
+    padding-top: 10px;
+    position: fi
+}
+.footer {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.cam {
+    position: relative;
+}
+.cam .txt {
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 320px;
 }
